@@ -207,7 +207,7 @@ Package for zhangwei will arrive, tracking ID: 20231042.
 
 ```kotlin
 fun main() {
-    val yangshuhao = "2025003003"
+    val xubinhao = "2025003003"
     println("Package for xubinhao will arrive, tracking ID:" + xubinhao)
 }
 ```
