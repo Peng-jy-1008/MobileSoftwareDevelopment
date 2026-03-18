@@ -438,13 +438,13 @@ fun main() {
 
 ```kotlin
 fun main() {
-    printWuyiWeather("Ankara", 27, 31, 82)
-    printWuyiWeather("Tokyo", 32, 36, 10)
-    printWuyiWeather("Cape Town", 59, 64, 2)
-    printWuyiWeather("Guatemala City", 50, 55, 7)
+    printWanwencongWeather("Ankara", 27, 31, 82)
+    printWanwencongWeather("Tokyo", 32, 36, 10)
+    printWanwencongWeather("Cape Town", 59, 64, 2)
+    printWanwencongWeather("Guatemala City", 50, 55, 7)
 }
 
-fun printWuyiWeather(city: String, lowTemp: Int, highTemp: Int, rainChance: Int) {
+fun printWanwencongWeather(city: String, lowTemp: Int, highTemp: Int, rainChance: Int) {
     println("City: $city")
     println("Low temperature: $lowTemp, High temperature: $highTemp")
     println("Chance of rain: $rainChance%")
